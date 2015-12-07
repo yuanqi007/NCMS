@@ -26,7 +26,7 @@ func NewInsurePersonContorler() *InsuredPersonContorler {
 /*
 	返回参合人员信息人数
 */
-func (i *InsuredPersonContorler) Len() int {
+func (i *InsuredPersonContorler) GetNum() int {
 	return len(i.InsuredPerson)
 }
 
